@@ -1,0 +1,47 @@
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>.innerHolder{
+    display: flex;
+    gap: 35px;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: auto;
+    border: 1px solid black;
+    width: 70%;
+    height: 70%;
+    scrollbar-width: none;
+}
+
+#container>.innerHolder>img{
+    width: 100%;
+    height: 700px;
+}
+
+#container>.BTN{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.BTN>.left,.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+i{
+    color: white;
+}
